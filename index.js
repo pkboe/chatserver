@@ -6,7 +6,15 @@ const app = express();
 const port = 2000;
 
 // Where we will keep greets
-let greets = ["Hello", "Hi", "Hola", "Namaste", "Welcome!", "Are Boi!"];
+let greets = [
+  "Hello",
+  "Hi",
+  "Hola",
+  "Namaste",
+  "Welcome!",
+  "Are Boi!",
+  "Bhosadike!",
+];
 
 app.use(cors());
 
